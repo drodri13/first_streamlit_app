@@ -15,6 +15,6 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
-streamlit.text("this is a test verification")
+streamlit.text("this is a test verification text")
 
 streamlit.dataframe(my_fruit_list)
